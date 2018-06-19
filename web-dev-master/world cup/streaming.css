@@ -1,0 +1,28 @@
+.jumbotron {
+    width: 100%;
+    height: auto;
+    background-color: #123f77;
+    color: white;
+    font-family: "Oswald";
+    margin: 0px 0px 0px 0px;
+}
+
+#teams {
+    font-size: 6em;
+}
+
+#logo {
+    float: left;
+    width: 9rem;
+    height: auto;
+}
+
+iframe {
+    margin-top: 0px;
+    width: 1420px;
+    height: 787.5px;
+}
+
+body {
+    background-color: #8D99AE;
+}
