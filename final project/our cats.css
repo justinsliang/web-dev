@@ -1,0 +1,34 @@
+.margiin{
+    margin:auto;
+}
+
+#logo {
+    width: 3em;
+}
+.navbar{
+    background-color: rgba(209,198,173,.5);
+}
+.navbar {
+    background-image: url("https://orig00.deviantart.net/98de/f/2014/139/7/4/cat_tile_by_genicecream-d7iwvfi.png");
+    opacity: .4;
+}
+h1{
+    font-family: "Abril Fatface";
+    margin: .25%;
+}
+.carouselControls{
+    height: 4em;
+    background-color: rgba(225, 225, 225, 0.884);
+    border-radius: 18px;
+}
+.carousel {
+    height: auto;
+    width: 100%;
+}
+#menubutton {
+    width: 1.2em;
+}
+.nav-link {
+    font-family: Chewy;
+}
+
