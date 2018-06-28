@@ -2,32 +2,158 @@
 #logo {
     width: 3em;
 }
-.navbar{
-    background-color: rgba(209,198,173,.5);
-}
+
 .navbar {
-    background-image: url("https://orig00.deviantart.net/98de/f/2014/139/7/4/cat_tile_by_genicecream-d7iwvfi.png");
-    opacity: .4;
-}
-h1{
-    font-family: "Abril Fatface";
-    margin: .25%;
-}
-.carouselControls{
-    height: 4em;
-    background-color: rgba(225, 225, 225, 0.884);
-    border-radius: 18px;
-}
-.carousel {
-    height: auto;
+    background-image: url("https://static1.squarespace.com/static/532115efe4b01580f3c70efa/54b9bb0fe4b0d1f230ce984d/56d07dbd555986c507b5bb53/1456504512313/catstiledsmall.jpg?format=2500w");
     width: 100%;
 }
+
+.navbar-brand {
+    background-color: #7FB685;
+    border-radius: 14px;
+}
+
+.navbar-toggle {
+    background-color: #7FB685;
+}
+
+#name {
+    background-color: #7FB685;
+    border-radius: 14px;
+}
+
+h1 {
+    font-family: "Abril Fatface";
+    margin: .25%;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.carouselControls {
+    height: 4em;
+    background-color: #7FB685;
+    border-radius: 18px;
+}
+
+.carousel {
+    /* top: 0; */
+    margin-top: 5px;
+    /* padding-top: 20px; */
+    height: auto;
+    width: 100%;
+    /* position: absolute; */
+}
+
 #menubutton {
     width: 1.2em;
 }
+
 .nav-link {
     font-family: Chewy;
+    font-size: 1.5em;
+    background-color: #7FB685;
+    border-radius: 14px;
+    padding: 4%;
+    margin: 4% 2%;
 }
+
+@media (max-width: 992px) {
+    .carousel {
+        position: relative; 
+    }
+    .nav-link {
+        text-align: center;
+    }
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar.active {
+    margin-left: -250px; 
+    text-align: center;
+}
+
+#sidebar {
+    background-color: rgba(158,163,176,0.3);
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+body {
+    font-family: Sanchez;
+    color: black;
+    text-decoration: none;
+    background-color: #FAE1DF;
+}
+
+h4 {
+    font-family: Sanchez;
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+p {
+    font-weight: bold;
+    color: black;
+}
+.card {
+    border-radius: 2em;
+    text-align:center;
+}
+
+
+
+
 
 
 

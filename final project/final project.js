@@ -8,11 +8,13 @@ $(document).ready(function () {
   // console.log(uri);
   $.get(uri, onRes);
   $('#sidebarCollapse').on('click', function () {
-    $('#sidebar').toggleClass('active');
+    $('#sidebar').toggle();
+    toggleAbsolute();
   });
-$(window).resize(myFunction) // Attach listener function on state changes
-      
+  $("#sidebar").toggle(false);
+  $(window).resize(myFunction) // Attach listener function on state changes
 });
+
 function onRes(response) {
   console.log(response);
   $(".city").html(response.name);
@@ -24,7 +26,27 @@ function onRes(response) {
 
 function myFunction() {
   if ($(window).width() < 992) {
+    $("#sidebar").toggle(false);
     $("#menu").attr("href", "menu.html");
   } else {
-    $("#menu").attr("href", "#");  }
+    $("#menu").attr("href", "#");
+  }
+}
+
+function toggleAbsolute() {
+  console.log("In toggleAbsolute");
+  if ($('.carousel').css("position") == "absolute") {
+    $('.carousel').css({
+      "position": "relative",
+      "margin-top": "0px"
+    });
+    console.log("if");
+  } else {
+    $('.carousel').css({
+      "position": "absolute",
+      "top": "0",
+      "margin-top": "78 px"
+    });
+    console.log("else");
+  }
 }

@@ -39,12 +39,11 @@ h3 {
 }
 
 .carousel {
-    /* top: 0; */
-    margin-top: 5px;
-    /* padding-top: 20px; */
+    top: 0;
     height: auto;
     width: 100%;
-    /* position: absolute; */
+    display: block;
+    position: absolute;
 }
 
 #menubutton {
@@ -61,17 +60,14 @@ h3 {
 }
 
 @media (max-width: 992px) {
-    .carousel {
-        position: relative; 
-    }
     .nav-link {
         text-align: center;
     }
     #sidebar {
-        margin-left: -250px;
+        margin-right: -250px;
     }
     #sidebar.active {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -82,12 +78,11 @@ h3 {
 }
 
 #sidebar.active {
-    margin-left: -250px; 
-    text-align: center;
+    margin-right: -250px;
 }
 
 #sidebar {
-    background-color: rgba(158,163,176,0.3);
+    background-color: rgba(158,163,176,.9);
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
@@ -96,6 +91,8 @@ h3 {
     font-weight: normal;
     margin: 0%;
     padding: 0%;
+    margin-right: -250px;
+    z-index: 1;
     text-align: center;
 }
 
@@ -115,9 +112,10 @@ body {
     font-family: Sanchez;
     color: black;
     text-decoration: none;
-    background-color: #FAE1DF;
+    background-image: url("https://wallpapercave.com/wp/wp2481150.png");
+    
+  
 }
-
 h4 {
     font-family: Sanchez;
     color: black;
@@ -144,8 +142,43 @@ a {
 p {
     font-weight: bold;
     color: black;
-}
-.card {
-    border-radius: 2em;
+    font-family: Sanches;
+    font-size: 15px;
+} 
+
+
+.card{
     text-align:center;
+}
+
+
+.center{
+    text-align:center;
+}
+.padding {
+    margin-top:30px;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+hr {
+    height: 0.15px;
+    background-color:black;
+    width: 60%;
+}
+
+footer {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/8vV2rpe/pastel-blue-background-1080p_x1kgy93b__F0000.png");
+}
+
+.oof {
+    margin: 4%;
+}
+
+.footer-heading {
+    margin: 4%;
+}
+
+.logo {
+    margin: 2.7em;
 }
