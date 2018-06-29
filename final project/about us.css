@@ -113,13 +113,11 @@ body {
     color: black;
     text-decoration: none;
     background-image: url("https://wallpapercave.com/wp/wp2481150.png");
-    
-  
 }
 h4 {
     font-family: Sanchez;
     color: black;
-    font-size: 1.5em;
+    font-size: 3em;
     text-decoration: none;
     font-weight: bold;
 }
@@ -142,16 +140,12 @@ a {
 p {
     font-weight: bold;
     color: black;
-    font-family: Sanches;
-    font-size: 15px;
+    font-family: "Sanchez";
+    font-size: 1.2em;
 } 
-
-
 .card{
     text-align:center;
 }
-
-
 .center{
     text-align:center;
 }
@@ -168,7 +162,7 @@ hr {
 }
 
 footer {
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/8vV2rpe/pastel-blue-background-1080p_x1kgy93b__F0000.png");
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/Navajo_Wallpaper_in_Pastel_design_by_Cavern_Home-1_a39a62b4-5373-4786-aff6-d78806c69898_2048x2048.jpg?v=1401222775");
 }
 
 .oof {
@@ -182,3 +176,10 @@ footer {
 .logo {
     margin: 2.7em;
 }
+.size2 {
+    font-size:1.6em;
+}
+.navbar-toggler {
+    background-color: #7FB685;
+}
+
